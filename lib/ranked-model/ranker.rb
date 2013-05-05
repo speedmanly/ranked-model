@@ -27,7 +27,7 @@ module RankedModel
         self.ranker   = ranker
         self.instance = instance
 
-        validate_ranker_for_instance!
+        # validate_ranker_for_instance!
       end
       
       def validate_ranker_for_instance!
